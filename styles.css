@@ -14,10 +14,11 @@ a {
 
 #navbar {
     background: yellow;
-    width: 100%;
     display: flex;
 }
 
 #navbar li {
     display: inline-block;
+    width: 50%;
+    height: 100%;
 }
