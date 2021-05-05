@@ -13,12 +13,14 @@ a {
 }
 
 #navbar {
-    background: yellow;
-    display: flex;
+    height: 10vh;
+    background: wheat;
 }
 
-#navbar li {
-    display: inline-block;
+#navbar ul {
+    display: flex;
     width: 50%;
     height: 100%;
+    justify-content: space-around;
+    align-items: center;
 }
