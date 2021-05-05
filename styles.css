@@ -11,3 +11,13 @@ ul {
 a {
     text-decoration: none;
 }
+
+#navbar {
+    background: yellow;
+    width: 100%;
+    display: flex;
+}
+
+#navbar li {
+    display: inline-block;
+}
