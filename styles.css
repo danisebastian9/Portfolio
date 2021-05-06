@@ -43,3 +43,8 @@ ul {
     justify-content: center;
     align-items: center;
 }
+
+#projects {
+    height: 50vh;
+    background: black;
+}
