@@ -27,7 +27,7 @@ ul {
     text-shadow: 2px 2px 3px black;
     font-weight: bolder;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 2vh;
     float: right;
     display: block;
     color: #ffffffd4;
@@ -209,6 +209,7 @@ footer {
 @media screen and (max-width: 550px) {
     .nav-Links li a {
         padding: 25px 20px;
+        font-size: 1vh;
     }
 
     #grid {
