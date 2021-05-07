@@ -206,3 +206,17 @@ footer {
     color: rgb(57 54 63);
 }
 
+@media screen and (max-width: 550px) {
+    .nav-Links li a {
+        padding: 25px 20px;
+    }
+
+    #grid {
+        grid-template-columns: 1fr;
+    }
+
+    #message img {
+        max-width: 95%;
+    }
+}
+
