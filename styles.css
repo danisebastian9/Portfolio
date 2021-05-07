@@ -233,5 +233,13 @@ footer img {
     #contactIcons {
         font-size: 3vh;
     }
+
+    footer {
+        font-size: 3vh;
+    }
+
+    footer img {
+        max-width: 120px;
+    }
 }
 
