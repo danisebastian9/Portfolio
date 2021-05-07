@@ -201,10 +201,17 @@ main {
 }
 
 footer {
+    display: flex;
     text-align: center;
     padding: 25px;
     font-style: italic;
     color: rgb(57 54 63);
+    justify-content: space-evenly;
+}
+
+footer img {
+    max-width: 88px;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 600px) {
