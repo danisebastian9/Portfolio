@@ -19,7 +19,7 @@ ul {
     top: 0;
     width: 100%;
     box-sizing: border-box;
-    background: linear-gradient(90deg, #EC6F66, #f3a183);
+    background: rgb(57 54 63);
     z-index: 1;
 }
 
@@ -36,8 +36,8 @@ ul {
 }
 
 .nav-Links li a:hover {
-    color: rgba(20, 19, 19, 0.733);
-    text-shadow: 2px 2px 5px white;
+    color: #EC6F66;
+    text-shadow: 1px 1px 15px white;
     ;
 }
 
@@ -87,10 +87,18 @@ main {
     background: rgb(37 45 58 / 90%);
 }
 
+#projects h3 {
+    font-family: 'Kaushan Script', cursive;
+    color: #EC6F66;
+    text-align: center;
+    padding: 30px;
+    font-size: 3vh;
+}
+
 #grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.8fr 1fr;
     grid-column-gap: 50px;
     grid-row-gap: 50px;
     padding: 5%;
@@ -99,11 +107,16 @@ main {
 .project-title {
     text-align: center;
 }
+.project-title:hover {
+    opacity: 0.8;
+    text-shadow: 1px 1px 2px #ffffffd4;
+}
 
 .project-title a {
     text-decoration: none;
-    color: #ffffffd4;
+    color: rgb(57 54 63);
     text-align: center;
+    font-weight: bold;
 }
 
 .project-image {
@@ -111,16 +124,64 @@ main {
     display: flex;
     box-sizing: border-box;
     max-height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.image-footer {
+    padding: 10px;
+    font-family: 'Michroma', sans-serif;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 5px black;
+    background: linear-gradient(90deg, #EC6F66, #f3a183);
+}
+
+#showAll {
+    display: flex;
+    justify-content: center;
 }
 
 #profile-link {
-    color: #ffffffd4;
+    background: #EC6F66;
+    margin-bottom: 35px;
+    padding: 15px 20px;
+    color: rgb(57 54 63);
+    font-weight: bold;
     text-align: center;
     text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#profile-link:hover {
+    background: #f3a183;
 }
 
 #contact {
-    
+    margin-top: 30px;
+}
+
+#contact h3 {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Michroma', sans-serif;
+    font-size: 2vh;
+    font-weight: bold;
+    color: rgb(57 54 63);
+    text-shadow: 2px 2px 14px #ffffffd4;
+    padding: 10px 25px;
+}
+
+#contactIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+#contactIcons a {
+    padding: 10px;
+    text-decoration: none;
 }
 
 footer {
