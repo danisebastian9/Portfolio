@@ -221,3 +221,9 @@ footer {
     }
 }
 
+@media screen and (min-width: 600px) {
+    #contactIcons {
+        font-size: 3vh;
+    }
+}
+
