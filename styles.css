@@ -206,10 +206,10 @@ footer {
     color: rgb(57 54 63);
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     .nav-Links li a {
         padding: 25px 20px;
-        font-size: 1vh;
+        /* font-size: 1vh; */
     }
 
     #grid {
